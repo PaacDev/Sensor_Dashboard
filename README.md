@@ -30,8 +30,8 @@ El proyecto está preparado para ejecutarse con **Docker y Docker Compose**, usa
 ### 1. Clonar el repositorio:
 
 ```bash
-git clone https://github.com/tu_usuario/DevSecPortfolio.git
-cd DevSecPortfolio
+git clone https://github.com/PaacDev/Sensor_Dashboard.git
+cd Sensor_Dashboard
 ```
 
 ### 2. Configuración del entorno:
