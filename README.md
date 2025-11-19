@@ -1,4 +1,4 @@
-# DevSecPortfolio - Sensor Dashboard
+# Sensor Dashboard
 [![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=PaacDev_DevSecPortfolio)
 
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=PaacDev_DevSecPortfolio&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=PaacDev_DevSecPortfolio)

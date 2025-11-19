@@ -3,7 +3,7 @@ version: "3.9"
 services:
   db:
     image: postgres:15
-    container_name: devsecportfolio_db
+    container_name: sensor_dashboard_db
     environment:
       POSTGRES_DB: ${DB_NAME}
       POSTGRES_USER: ${DB_USER}
@@ -17,7 +17,7 @@ services:
 
   web:
     build: .
-    container_name: devsecportfolio_web
+    container_name: sensor_dashboard_web
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/app
