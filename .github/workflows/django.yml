@@ -60,6 +60,7 @@ jobs:
             -Dsonar.organization=pac1006
             -Dsonar.sources=.
             -Dsonar.python.coverage.reportPaths=coverage.xml
+            -Dsonar.exclusions=**/wsgi.py,**/asgi.py
 
       - name: Shutdown services
         run: docker compose down -v
